@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "voicechanger",
+  "version": "${version}",
+  "name": "Minecraft Voice Changer",
+  "description": "Stimmenverzerrer fuer den Simple Voice Chat.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.voicechanger.VcClient"],
+    "voicechat": ["de.voicechanger.VcPlugin"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*",
+    "voicechat": "*"
+  }
+}
